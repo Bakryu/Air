@@ -1,15 +1,2 @@
-@import "./global";
+@import "./main"
 
-$color: rgba(tomato, 0.4);
-
-body {
-  background: url("./images/pacan.jpeg");
-}
-input {
-}
-label {
-  display: grid;
-  width: 30px;
-  height: 30px;
-  background-color: red;
-}

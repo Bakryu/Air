@@ -1,24 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>
-      lol kek 123213
-    </h1>
-    <label for="file-id"></label>
-    <input type="range" id="file-id" />
-    <select>
-      <option value="">13213</option>
-      <option value="">13213</option>
-      <option value="">13213</option>
-      <option value="">13213</option>
-    </select>
-    <div>
-      <img src="./images/img.jpg" alt="" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+</head>
+<div class="slider__arrow">
+  <img class="slider__arrow-img" src="./images/arrow-left.png" alt="">
+</div>
+
+<body>
+  <section class="home">
+    <div class="hero">
+      <nav class="nav nav_header">
+        <div class="nav__logo-container">
+          <a href="#" class="nav__logo">Air</a>
+        </div>
+        <div class="nav__item_container">
+          <div class="nav__item"><a href="#" class="nav__item_element">Home</a></div>
+          <div class="nav__item"><a href="#" class="nav__item_element">About us</a></div>
+          <div class="nav__item"><a href="#" class="nav__item_element">Services</a></div>
+          <div class="nav__item"><a href="#" class="nav__item_element">Work</a></div>
+          <div class="nav__item"><a href="#" class="nav__item_element">Contact Us</a></div>
+        </div>
+        <div class="nav__hire-container"><a href="#" class="nav__hire-us">Hire us</a></div>
+      </nav>
+      <div class="hero__body">
+        <div class="hero__content-wraper">
+          <span class="hero__title">Strategic Agency</span>
+          <span class="hero__suptitle">We believe in the power of bold ideas that can solve business challenges.</span>
+          <button class="hero__btn purple-batton">Learn more</button>
+        </div>
+        <div class="hero__slider">
+          <div class="slider__item">
+            <img class="slider__img" src="./images/slider-img1.jpg" alt="">
+            <span class="slider__title">INtro</span>
+            <span class="slider__sup-title">By the same illusion which lifts the<br> horizon.</span>
+          </div>
+          <div class="slider__item">
+            <img class="slider__img" src="./images/slider-img2.jpg" alt="">
+            <span class="slider__title">INtro</span>
+            <span class="slider__sup-title">By the same illusion which lifts the<br> horizon.</span>
+          </div>
+        </div>
+      </div>
     </div>
-  </body>
+    <div class="about-us">
+      <span class="about-us__title">Who we are</span>
+      <article class="about-us__desc">We embrace a strategic approach to creative ideas. We are interested in people and
+        human relationships. This is the main thing you need to know about us. We believe in the power of bold ideas
+        that can solve business challenges.</article>
+    </div>
+  </section>
+  <section class="expertise">
+    <div class="expertise__title-wrapper">
+      <span class="expertise__title">Our expertise</span></div>
+    <div class="expertise__item-wrapper">
+      <div class="expertise__item">
+        <div class="expertise__img-wrapper">
+          <img src="./images/expertise__img1.jpg" alt="">
+        </div>
+        <span class="expertise__suptitle">Branding</span>
+        <span class="expertise__article">We create additional value for companies, products, services as well as verbal
+          and visual ways to deliver it to the audience.</span>
+
+      </div>
+      <div class="expertise__item">
+        <div class="expertise__img-wrapper">
+          <img src="./images/expertise__img2.jpg" alt="">
+        </div>
+        <span class="expertise__suptitle">Communication</span>
+        <span class="expertise__article">We create additional value for companies, products, services as well as verbal
+          and visual ways to deliver it to the audience.</span>
+
+      </div>
+      <div class="expertise__item">
+        <div class="expertise__img-wrapper">
+          <img src="./images/expertise__img3.jpg" alt="">
+        </div>
+        <span class="expertise__suptitle">Strategy</span>
+        <span class="expertise__article">We create additional value for companies, products, services as well as verbal
+          and visual ways to deliver it to the audience.</span>
+
+      </div>
+    </div>
+  </section>
+  <section class="process">
+    <div class="process__desc-wrapper">
+      <span class="process__title">Process</span>
+      <span class="process__suptitle">Air is a full service creative agency</span>
+      <span class="process__article">
+        Deep analytics, strong strategy and bright creative ideas.
+
+        We are sure that first-rate job is possible only if all three components are united.</span>
+
+    </div>
+    <div class="process__card-wrapper">
+      <div class="process__card-wrapper-grope down-grope">
+        <div class="process__card process__card_first">
+          <span class="process__card-number">001</span>
+          <span class="process__card-desc">Brand Development
+            Copywriting
+            Logo & Webite Design
+            Packaging</span>
+          <button class="process__card-button"><img class="process__card-img" src="./images/process-arrow.svg"
+              alt=""></button>
+          <span class="process__card-more">Learn more</span>
+        </div>
+        <div class="process__card process__card_thert">
+          <span class="process__card-number">003</span>
+          <span class="process__card-desc">Brand Development
+            Copywriting
+            Logo & Webite Design
+            Packaging</span>
+          <button class="process__card-button"><img class="process__card-img" src="./images/process-arrow.svg"
+              alt=""></button>
+          <span class="process__card-more">Learn more</span>
+        </div>
+      </div>
+      <div class="process__card-wrapper-grope">
+        <div class="process__card process__card_second">
+          <span class="process__card-number">002</span>
+          <span class="process__card-desc">Brand Development
+            Copywriting
+            Logo & Webite Design
+            Packaging</span>
+          <button class="process__card-button"><img class="process__card-img" src="./images/process-arrow.svg"
+              alt=""></button>
+          <span class="process__card-more">Learn more</span>
+        </div>
+        <div class="process__card process__card_fourt">
+          <span class="process__card-number">004</span>
+          <span class="process__card-desc">Brand Development
+            Copywriting
+            Logo & Webite Design
+            Packaging</span>
+          <button class="process__card-button"><img class="process__card-img" src="./images/process-arrow.svg"
+              alt=""></button>
+          <span class="process__card-more">Learn more</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+
+
 </html>
