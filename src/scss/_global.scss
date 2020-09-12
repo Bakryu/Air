@@ -1,9 +1,13 @@
-$purple-color:#f8897a;
+$purple-color:#FF9C8E;
 $bg-color_blue: #008AFF;
 $bg-color_gray: #E5E5E5;
 $title-blue_color: #253757;
 $article_color: #6C788B;
 $title-gray_color:#C0CDD7;
+$card-blue_color:#56CCF2;
+$card-yelow_color:#FCC91D;
+$card-green_color:#15D850;
+$card-red_color:#F36363;
 $open-font:Open Sans;
 
 * {
@@ -29,4 +33,11 @@ $open-font:Open Sans;
   line-height: 22px;
   text-align: center;
   color: #FFFFFF;
+  transition: .4s;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 20px -4px rgba(0, 0, 4, .4);
+  }
+
 }
